@@ -1,0 +1,29 @@
+/clear
+repository- place where you store data
+Any file that i changed is recorded by git in that compressed form. This is called a snapshot
+see diff utility ,
+http://git-scm.com/book/en/v2/book/01-introduction/images/snapshots.png
+http://git-scm.com/book/en/v2/book/01-introduction/images/deltas.png
+filesystem,staging area(index),commit-where files are permanently stored
+]satge-where file is stored before commiting or palce where temporarily files are stored
+Think of it in a computer system basis: changes outside the computer (like your boss telling you to write a file) is a change in the working directory... 
+when these changes are put to the computer but not SCtrl+S yet they are stored in the RAM. This is like the stage (it's recorded, but not permanent). 
+Changes may be made to the RAM before hitting Ctrl+S. Finally when you DO hit the save button, it "commits" the changes t
+]a filesystem has a state
+http://git-scm.com/book/en/v2/book/01-introduction/images/areas.png
+git rm --cached <file>-removes both files(tracked and untracked)
+git rm -f(file becomes untracked)
+git add .- to stage the file or git add filename
+git commit -m "somename commit"- to commit the file
+git config --global user.name "Whatever name you want in the quotes"
+git config --global user.email "Your email ID in the quotes"
+ls hidden - to view the .git file
+git log- git history
+$ git checkout <first few characters of the commit ID that you want to go to>
+cat- for seeing what is in file using command prompt\
+detatched head- not latest commit
+head- latest commit
+checkout-used to checkout a file using branch name or id of commit
+ask after github part
+git remote add origin https://github.com/dhanajagan91/the-first.git
+git push -u origin master
