@@ -27,3 +27,5 @@ checkout-used to checkout a file using branch name or id of commit
 ask after github part
 git remote add origin https://github.com/dhanajagan91/the-first.git
 git push -u origin master
+<br>-same as \n
+<script src="myscript.js">-for loading external script

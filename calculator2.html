@@ -1,0 +1,74 @@
+<html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+.body{background-color:ffebe0;
+   
+    }
+.box{ background-color:grey;
+     height:380px;
+     width:240px;
+     
+     position:relative;
+     top:5px;
+     left:5%;
+     }
+
+
+input{ position:relative;
+       left:13px;
+       top:20px;
+       background-color:white;
+         width:215px;
+        height:50px;
+     }
+#but{position:relative;background-color:ffffcc;
+     color:red;
+     top:15px;
+     left:8% ;
+     width:48px;
+     height:40px;
+     justify-content:space-around;
+     clip:rect(0px,30px,30px,0px);
+     }
+
+
+p{line-height:10px;}
+</style>
+</head>
+<div class="body">
+<script src="calculator2js.js"></script>
+<h1>self intro and calculator design</h1>
+<h2>my first project</h2>
+<div class="box">
+<div >
+<input type="text" readonly size="18" id="e" >
+</div>
+<br>
+<p><input id="but" type="button" value="7" onclick='addchar("7");'>
+<input id="but" type="button" value="8" onclick='addchar("8");'>
+<input id="but" type="button" value="9" onclick='addchar("9");'>
+<input id="but" type="button" value="DEL" onclick='addchar("DEL");'><br></p>
+<p><input id="but" type="button" value="4" onclick='addchar("4");'>
+<input id="but" type="button" value="5" onclick='addchar("5");'>
+<input id="but" type="button" value="6" onclick='addchar("6");'>
+<input id="but" type="button" value="/" onclick='addchar("/");'><br></p>
+<p><input id="but" type="button" value="1" onclick='addchar("1");'>
+<input id="but" type="button" value="2" onclick='addchar("2");'>
+<input id="but" type="button" value="3" onclick='addchar("3");'>
+<input id="but" type="button" value="*" onclick='addchar("*");'><br></p>
+<p><input id="but" type="button" value="." onclick='addchar(".");'>
+<input id="but" type="button" value="0" onclick='addchar("0");'>
+<input id="but" type="button" value="=" onclick='evaluate();'>
+<input id="but" type="button" value="-" onclick='addchar("-");'> <br></p>
+<input id="but" type="button" value="+" onclick='addchar("+");'>
+<input id="but" type="button" value="res" onclick='addchar("res");'>
+<input id="but" type="button" value="(" onclick='addchar("(");'>
+<input id="but" type="button" value=")" onclick='addchar(")");'>
+</div>
+
+</div>
+</div>
+</html>
